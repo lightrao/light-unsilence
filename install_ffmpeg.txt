@@ -1,0 +1,25 @@
+To install `ffmpeg` and make it available in your system's PATH on a macOS, you can use Homebrew, which is a package manager for macOS. Here are the steps:
+
+1. First, you need to ensure that Homebrew is installed on your system. If not, you can install it using the following command in Terminal:
+
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+2. Once Homebrew is installed, update and upgrade Homebrew formulae with the following commands:
+
+    ```bash
+    brew update
+    brew upgrade
+    ```
+
+3. Now you can install `ffmpeg` using Homebrew with the command:
+
+    ```bash
+    brew install ffmpeg
+    ```
+
+After these steps, `ffmpeg` should be installed and available in your system's PATH[^1^]. You can verify the installation by typing `ffmpeg -version` in your Terminal. If it's installed correctly, it should display the version information of `ffmpeg`[^3^].
+
+[^1^]: (source: phoenixNAP)
+[^3^]: (source: Your Guide for Windows and Mac)
